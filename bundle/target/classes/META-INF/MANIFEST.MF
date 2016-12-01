@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1480579976496
+Build-Jdk: 1.7.0_80
+Built-By: User
+Bundle-Description: Maven Multimodule project for SocialIntegration.
+Bundle-ManifestVersion: 2
+Bundle-Name: SocialIntegration Bundle
+Bundle-SymbolicName: SocialIntegration.SocialIntegration-bundle
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.inkriti.socialintegration.models;uses:="org.apache.s
+ ling.commons.json,org.slf4j";version="1.0.0.SNAPSHOT",com.inkriti.socia
+ lintegration.services;version="1.0.0",com.inkriti.socialintegration.ser
+ vlets;uses:="org.apache.http.client.entity,org.apache.http.message,org.
+ apache.http.client,org.apache.sling.api.servlets,javax.servlet,org.apac
+ he.http.impl.client,org.apache.sling.commons.json,org.apache.sling.api,
+ org.apache.http.client.methods,org.apache.http";version="1.0.0.SNAPSHOT
+ "
+Import-Package: com.inkriti.socialintegration.services;version="[1.0,2)"
+ ,javax.servlet,org.apache.http,org.apache.http.client,org.apache.http.c
+ lient.entity,org.apache.http.client.methods,org.apache.http.impl.client
+ ,org.apache.http.message,org.apache.sling.api;version="[2.3,3)",org.apa
+ che.sling.api.request;version="[2.4,3)",org.apache.sling.api.servlets;v
+ ersion="[2.1,3)",org.apache.sling.commons.json;version="[2.0,3)",org.ap
+ ache.sling.jcr.api;version="[2.2,3)",org.slf4j;version="[1.5,2)"
+Service-Component: OSGI-INF/serviceComponents.xml
+Tool: Bnd-1.50.0

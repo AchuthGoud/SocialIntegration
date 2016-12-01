@@ -1,0 +1,6 @@
+com\inkriti\socialintegration\services\HelloService.class
+com\inkriti\socialintegration\services\impl\filters\LoggingFilter.class
+com\inkriti\socialintegration\servlets\InstagramServlet.class
+com\inkriti\socialintegration\services\package-info.class
+com\inkriti\socialintegration\models\TwitterSearch.class
+com\inkriti\socialintegration\services\impl\HelloServiceImpl.class
